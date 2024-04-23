@@ -1,0 +1,20 @@
+a:link {
+  color: rgb(154, 153, 159);
+}
+a:hover {
+  color: rgb(154, 153, 153);
+  font-size: 1.1em;
+}
+a:visited {
+  color: darkgray;
+}
+a:active {
+  color: aqua;
+}
+
+li:hover {
+  background-color: aquamarine;
+  width: auto;
+  transition: background-color 0.3s;
+  display: inline-block;
+}

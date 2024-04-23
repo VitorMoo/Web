@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LyricsWebSite</title>
     <link rel="icon" type="image/png" href="/SourceImages/favicon-16x16.png" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>LyricsWebSite</h1>
-    <h3>(Don't Fear) The Reaper</h3>
-    <h4>Blue Öyster Cult</h4>
+    <header>
+      <h1>LyricsWebSite</h1>
+      <h3 id="musictitle" class="titles">(Don't Fear) The Reaper</h3>
+      <h4 id="bandname" class="titles">Blue Öyster Cult</h4>
+    </header>
     <a
       href="https://www.youtube.com/watch?v=Dy4HA3vUv2c"
       target="_blank"
@@ -17,11 +20,11 @@
       ><img src="/SourceImages/dontfear.png" / height="200" width="200
       "alt="album cover">
       <br />
-      Original video
+      <button style="background-color: darkgrey">Original video</button>
     </a>
     <hr />
     <br />
-    <pre>
+    <pre id="lyrics">
         <h3>Listen with the lyrics:
             <br>
         <audio controls source src="/SourceAudios/(Don't Fear) The Reaper.mp3">
@@ -71,5 +74,15 @@
         She had taken his hand (she had become like they are)
         Come on baby (don't fear the reaper)
         </pre>
+    <footer>
+      <p>&copy; 2024 My Website. All rights reserved.</p>
+      <nav>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Sitemap</a></li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>

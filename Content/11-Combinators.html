@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Combinators</title>
+    <style>
+      /* Styling for demonstration */
+      div {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+      }
+
+      .container {
+        background-color: #f0f0f0;
+      }
+
+      .child {
+        background-color: #ffe0e0;
+      }
+
+      .sibling {
+        background-color: #e0e0ff;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Descendant Selector (Space)</h2>
+    <div class="container">
+      <p>
+        This selector matches all paragraphs (p elements) that are descendants
+        of div elements.
+      </p>
+      <div>
+        <p>Paragraph inside div</p>
+      </div>
+      <p>Paragraph outside div</p>
+    </div>
+
+    <h2>Child Selector (>)</h2>
+    <div class="container">
+      <p>
+        This selector matches all paragraphs (p elements) that are direct
+        children of div elements.
+      </p>
+      <div>
+        <p>Paragraph inside div</p>
+      </div>
+      <p>Paragraph outside div</p>
+    </div>
+
+    <h2>Adjacent Sibling Selector (+)</h2>
+    <div class="container">
+      <p>
+        This selector matches all paragraphs (p elements) that are immediately
+        preceded by a div element.
+      </p>
+      <div>
+        <p>Paragraph 1</p>
+      </div>
+      <p>Paragraph 2</p>
+    </div>
+
+    <h2>General Sibling Selector (~)</h2>
+    <div class="container">
+      <p>
+        This selector matches all paragraphs (p elements) that are preceded by a
+        div element, regardless of their position.
+      </p>
+      <div>
+        <p>Paragraph 1</p>
+      </div>
+      <p>Paragraph 2</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+  color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+header {
+  background-color: rgb(17, 51, 116);
+  color: #f5f5f5;
+}
+
+#musictitle {
+  font-size: 24px;
+
+  font-weight: bold;
+  color: #f5f5f5;
+}
+
+#bandname {
+  font-size: 18px;
+  color: #f5f5f5;
+}
+footer {
+  background-color: rgb(17, 51, 116);
+  color: #f5f5f5;
+}
